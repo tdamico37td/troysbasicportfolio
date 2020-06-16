@@ -1,0 +1,189 @@
+ 
+ header {
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+}
+
+.logo-wrap {
+   float: left; 
+   /* margin-left: 56px; */
+}
+
+header a {
+ text-decoration: none;
+}
+
+header h1 {
+ margin: 25px;
+ color: white;
+ font-size: 30px;
+ font-weight: bold;
+ border-bottom: 2px;
+}
+
+header nav {
+ float: right; 
+ margin-top: 36px;
+ /* margin-right: 400px; */
+}
+
+header nav a {
+  font-family: sans-serif;
+  margin-left: 10px;
+  color: lightslategrey;
+}
+
+.active-page{
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.blue-backgrnd {
+   border: none;
+   background-color: #4aaaa5;
+}
+
+
+/* universal styles */
+
+.clearfix::after {
+ content: "";
+ display: block;
+ clear: table;
+}
+
+.clearfix-white {
+ width: 100%;
+ height: 75px;
+ background: white;
+ border-bottom: 2px solid #dddddd;
+}
+
+body {
+   padding: 0px;
+   margin: 0px;
+   font-family: Georgia, "Times New Roman", Times, serif;
+   font-size: 18px;
+   line-height: 150%;
+   background: #F5F5F5
+ }
+
+
+ #header2 {
+   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+ }
+
+ h2 {
+   font-size: 24px;
+   color:#4aaaa5;
+   border-bottom: 2px solid lightgray;
+   margin-bottom: 20px;
+   padding-bottom: 20px
+ }
+
+ h3 {
+   font-size: 24px;
+   color:#4aaaa5;
+   text-align: center;
+   border-bottom: 2px solid lightgray;
+   margin-bottom: 20px;
+   padding-bottom: 20px
+ }
+
+.wrapper {
+   /* width: 960px; */
+   /* background: #ffffff; */
+   /* margin-left: 56px; */
+   margin-bottom: 50px;
+ }
+
+.content {
+   padding-top: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   background: #ffffff;
+   border-bottom: 1px solid #dddddd;
+   color: grey;
+   /* margin-top: 55px; */
+   margin-bottom: 50px;
+   border: 1px solid #dddddd;
+   width: 650px;
+   float: left;
+}
+
+.contact-info{
+   padding: 5px;
+   background: #ffffff;
+   border-bottom: 1px solid #dddddd;
+   /* margin-top: 5px; */
+   margin-left: 50px;
+   margin-bottom: 5px;
+   border: 1px solid #dddddd;
+   width: 270px;
+   float: right;
+   text-align: center;
+   display: block
+}
+
+/* add in padding/margin bottom for .content / .contact-info and .wrapper */
+/* https://stackoverflow.com/questions/2189452/when-to-use-margin-vs-padding-in-css#:~:text=Margin%20is%20outer%20space%20of,t%20set%20padding%20to%20auto.*/
+
+
+
+ footer {
+   padding: 20px;
+   color: #ffffff;
+   background:#666666;
+   text-align: center;
+   border-top: 4px solid #4aaaa5;
+   font-size: 10px;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   right: 0; 
+   width: 100%;
+}
+
+.right {
+  float: right;
+  margin: 10px;
+}
+
+.left {
+  float: left; 
+  margin: 10px;
+ }
+ 
+.portfolio-images{
+  font-size: 0;
+}
+
+#name,
+#email
+{
+ color: gray;
+}
+
+section {
+ overflow: auto;
+}
+
+.container {
+ padding: 0 5%;
+}
+
+section .container {
+ padding-top: 2%;
+}
+
+.rounded {
+ border-radius: 10px;
+}
+
+.round {
+ border-radius: 100%;
+}
+
+form{
+  padding-bottom: 10px;
+}
